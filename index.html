@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="EbMobile mobil uygulamaları ve oyunları.">
+  <meta name="description" content="EbMobile mobile apps and games.">
   <title>EbMobile</title>
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/profile-icon-rebuilt-phone-play-512.png">
   <style>
     :root { --ink:#111b44; --purple:#6150e8; --mist:#edf9ff; }
     * { box-sizing:border-box; }
@@ -29,14 +30,18 @@
     footer { padding:28px 0 40px; color:#71809a; font-size:.9rem; } footer a { color:inherit; text-decoration:none; } footer a:hover,footer a:focus-visible { text-decoration:underline; }
     @media (max-width:560px) { .page { width:min(100% - 36px,520px); } header { padding-top:20px; } }
   </style>
+  <style>:root { --language-text:#506087; --language-border:#d3d9ec; --language-surface:#fff; --language-accent:#6150e8; --language-active-text:#fff; --language-focus:#6150e8; --language-hover:#eeeaff; }</style>
+  <link rel="stylesheet" href="assets/language-switch.css">
+  <script src="assets/legal-language.js"></script>
 </head>
 <body>
+  <div data-language="tr" lang="tr" data-title="EbMobile" data-description="EbMobile mobil uygulamaları ve oyunları.">
   <div class="page">
-    <header><a class="brand" href="index.html" aria-label="EbMobile ana sayfa"><img src="assets/profile-icon-rebuilt-phone-play-512.png" alt="">EbMobile</a><a class="privacy" href="privacy-policy/index.html">Gizlilik bildirimi</a></header>
+    <header><a class="brand" href="index.html" aria-label="EbMobile ana sayfa"><img src="assets/profile-icon-rebuilt-phone-play-512.png" alt="">EbMobile</a><div class="header-actions"><a class="privacy" href="privacy-policy/index.html">Gizlilik bildirimi</a><div class="language-switch" role="group" aria-label="Dil seçimi" hidden><button type="button" data-set-language="tr" lang="tr" aria-label="Türkçe" aria-pressed="true">TR</button><button type="button" data-set-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button></div></div></header>
     <main>
-      <section class="intro" aria-labelledby="intro-title"><h1 id="intro-title">EbMobile</h1><p class="intro-copy">Keyifle oynanacak mobil deneyimler tasarlıyoruz.<br><a class="intro-cta" href="https://play.google.com/store/apps/dev?id=8865251460924613045" target="_blank" rel="noopener noreferrer">Mobil Evrenimize Siz de Katılın →</a></p></section>
-      <section aria-labelledby="apps-title">
-        <h2 id="apps-title">Uygulamalar</h2>
+      <section class="intro" aria-labelledby="intro-title-tr"><h1 id="intro-title-tr">EbMobile</h1><p class="intro-copy">Keyifle oynanacak mobil deneyimler tasarlıyoruz.<br><a class="intro-cta" href="https://play.google.com/store/apps/dev?id=8865251460924613045" target="_blank" rel="noopener noreferrer">Mobil Evrenimize Siz de Katılın →</a></p></section>
+      <section aria-labelledby="apps-title-tr">
+        <h2 id="apps-title-tr">Uygulamalar</h2>
         <div class="apps">
           <a class="app" href="orbit-gunner/index.html"><img src="assets/orbit-gunner/icon.png" alt="Orbit Gunner uygulama simgesi" width="512" height="512"><div><h3>Orbit Gunner: Shoot &amp; Merge</h3><p>Yörüngede dönen topçu ile ateş et, aynı renk ve boyutta üç topu birleştir</p></div></a>
           <a class="app" href="marble-mingle/index.html"><img src="assets/marble-mingle/icon.png" alt="Marble Mingle uygulama simgesi" width="512" height="512"><div><h3>Marble Mingle: Roll &amp; Grow</h3><p>Topları eşleştir, büyü ve gizli görselleri ortaya çıkar.</p></div></a>
@@ -46,6 +51,25 @@
       </section>
     </main>
     <footer><a href="https://play.google.com/store/apps/dev?id=8865251460924613045" target="_blank" rel="noopener noreferrer">© 2026 EbMobile</a> · <a href="terms-of-service/index.html">Kullanım Koşulları</a> · <a href="privacy-policy/index.html">Gizlilik Bildirimi</a></footer>
+  </div>
+  </div>
+  <div data-language="en" lang="en" data-title="EbMobile" data-description="EbMobile mobile apps and games.">
+  <div class="page">
+    <header><a class="brand" href="index.html" aria-label="EbMobile home"><img src="assets/profile-icon-rebuilt-phone-play-512.png" alt="">EbMobile</a><div class="header-actions"><a class="privacy" href="privacy-policy/index.html">Privacy Policy</a><div class="language-switch" role="group" aria-label="Language selection" hidden><button type="button" data-set-language="tr" lang="tr" aria-label="Türkçe" aria-pressed="false">TR</button><button type="button" data-set-language="en" lang="en" aria-label="English" aria-pressed="true">EN</button></div></div></header>
+    <main>
+      <section class="intro" aria-labelledby="intro-title-en"><h1 id="intro-title-en">EbMobile</h1><p class="intro-copy">We create mobile experiences you'll love to play.<br><a class="intro-cta" href="https://play.google.com/store/apps/dev?id=8865251460924613045" target="_blank" rel="noopener noreferrer">Join our mobile universe →</a></p></section>
+      <section aria-labelledby="apps-title-en">
+        <h2 id="apps-title-en">Apps</h2>
+        <div class="apps">
+          <a class="app" href="orbit-gunner/index.html"><img src="assets/orbit-gunner/icon.png" alt="Orbit Gunner app icon" width="512" height="512"><div><h3>Orbit Gunner: Shoot &amp; Merge</h3><p>Shoot from an orbiting cannon and merge three balls of the same color and size.</p></div></a>
+          <a class="app" href="marble-mingle/index.html"><img src="assets/marble-mingle/icon.png" alt="Marble Mingle app icon" width="512" height="512"><div><h3>Marble Mingle: Roll &amp; Grow</h3><p>Match balls, grow bigger and reveal hidden images.</p></div></a>
+          <a class="app" href="last-rung/index.html"><img src="assets/last-rung-cover.png" alt="Last Rung game cover"><div><h3>Last Rung</h3><p>Time your jumps, dodge traps and reach the top.</p></div></a>
+          <a class="app" href="dunya-ulkeleri/index.html"><img src="assets/dunya-ulkeleri/icon.png" alt="Countries of the World app icon"><div><h3>Countries of the World</h3><p>Discover 197 countries and test your geography knowledge.</p></div></a>
+        </div>
+      </section>
+    </main>
+    <footer><a href="https://play.google.com/store/apps/dev?id=8865251460924613045" target="_blank" rel="noopener noreferrer">© 2026 EbMobile</a> · <a href="terms-of-service/index.html">Terms of Service</a> · <a href="privacy-policy/index.html">Privacy Policy</a></footer>
+  </div>
   </div>
 </body>
 </html>
